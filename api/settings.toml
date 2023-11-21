@@ -1,0 +1,9 @@
+[default]
+title = "Pappa Água"
+mongo_uri = 'mongodb+srv://PappaAdmin:pNwFKf3O2MWfYwee@clusterm0.qzs8zwx.mongodb.net/PappaAgua?retryWrites=true&w=majority'
+secret_key = '70e0b195083e884052e603c45b3764bba58a95303b60558a2fe781c6c3c7790e'
+extensions = [
+    'api.database:configure',
+    'api.views:configure',
+    'api.errors:configure',
+]
